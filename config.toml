@@ -1,0 +1,50 @@
+baseURL = "http://duanenewman.net"
+languageCode = "en-us"
+title = "Duane Newman"
+theme = "startbootstrap-clean-blog"
+canonifyurls = true
+paginate = 10
+copyright = "Copyright Duane Newman"
+googleAnalytics = "UA-2838107-3"
+disqusShortname = "duanenewmannet"
+
+
+[author]
+  name = "Duane Newman"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Coder - Speaker - Microsoft MVP - Scuba Instructor"
+  Author = "Duane Newman"
+  #email = "info@duanenewman.net" #Remove this line if you would prefer not to use an email button in the footer.
+  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = true #set to false to exclude read time from header of post
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/duanenewman"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/duanenewman"
+[[params.social]]
+  title = "instagram"
+  url = "https://www.instagram.com/duanenewman"
+[[params.social]]
+  title = "youtube"
+  url = "http://youtube.com/dnewman31"
+[[params.social]]
+  title = "flickr"
+  url = "https://www.flickr.com/duane_newman/"
+[[params.social]]
+  title = "usd"
+  url = "https://www.kickstarter.com/profile/duanenewman"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = -200
+
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180
