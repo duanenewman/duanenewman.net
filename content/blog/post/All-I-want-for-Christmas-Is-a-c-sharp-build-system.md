@@ -2,7 +2,7 @@
 
 title: "All I want for Christmas is a C# Build System"
 type: "post"
-date: 2017-12-23T06:00:00
+date: 2017-12-23T00:00:00
 draft: False
 tags: [ "devops", "c#", ".net", "cake", "build" ]
 categories: [ "Coding" ]
