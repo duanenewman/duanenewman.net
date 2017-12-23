@@ -6,6 +6,7 @@ date: 2015-09-03T09:30:00
 draft: False
 tags: [ "Community", "speaking", "Xamarin", "Xamarin Forms" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

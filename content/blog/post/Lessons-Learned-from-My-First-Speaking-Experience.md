@@ -6,6 +6,7 @@ date: 2014-11-20T09:00:00
 draft: False
 tags: [ "Xamarin", "Xamarin Forms", "tips", "speaking", "STLDODN" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

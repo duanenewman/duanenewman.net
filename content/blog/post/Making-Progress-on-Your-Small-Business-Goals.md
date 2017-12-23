@@ -6,6 +6,7 @@ date: 2014-11-10T08:00:00
 draft: False
 tags: [ "business", "planning" ]
 categories: [ "Musings" ]
+comments: true
 
 ---
 

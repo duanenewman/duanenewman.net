@@ -6,6 +6,7 @@ date: 2016-07-27T11:45:00
 draft: False
 tags: [ "WinPhone", "950XL", "Troubleshooting" ]
 categories: [ "Technology" ]
+comments: true
 
 ---
 

@@ -6,6 +6,7 @@ date: 2016-03-26T11:46:24
 draft: False
 tags: [ "Bluff", "Coding", "OSS", "plugin", "vegas", "video" ]
 categories: [ "Coding", "Video" ]
+comments: true
 
 ---
 

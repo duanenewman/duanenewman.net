@@ -6,6 +6,7 @@ date: 2016-03-24T11:15:00
 draft: False
 tags: [ "video", "tips", "chocolatey", "media", "utility" ]
 categories: [ "Video" ]
+comments: true
 
 ---
 

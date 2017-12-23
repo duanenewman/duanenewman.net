@@ -6,6 +6,7 @@ date: 2016-07-29T14:46:23
 draft: False
 tags: [ "Photography", "planning", "review", "Scuba", "Travel", "Tips", "video" ]
 categories: [ "Scuba" ]
+comments: true
 
 ---
 

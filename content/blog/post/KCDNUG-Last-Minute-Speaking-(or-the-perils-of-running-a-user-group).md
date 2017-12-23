@@ -6,6 +6,7 @@ date: 2015-03-24T22:30:00
 draft: False
 tags: [ "speaking", "Community", "KCDNUG" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

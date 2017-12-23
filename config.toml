@@ -7,7 +7,7 @@ paginate = 10
 copyright = "Copyright Duane Newman"
 googleAnalytics = "UA-2838107-3"
 disqusShortname = "duanenewmannet"
-
+Comments = true
 
 [author]
   name = "Duane Newman"

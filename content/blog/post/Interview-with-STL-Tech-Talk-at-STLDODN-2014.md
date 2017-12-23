@@ -6,6 +6,7 @@ date: 2015-04-02T08:23:02
 draft: False
 tags: [ "Xamarin", "Xamarin Forms", "STLDODN", "Interview", "StlTechTalk" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

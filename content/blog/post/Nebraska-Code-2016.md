@@ -6,6 +6,7 @@ date: 2016-05-23T15:01:57
 draft: False
 tags: [ "Coding", "Community", "Deployment", "mobile", "NCC", "NebraskaCode", "OSS", "Speaking", "Xamarin", "Xamarin Forms" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

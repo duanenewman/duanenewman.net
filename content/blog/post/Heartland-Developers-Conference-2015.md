@@ -6,6 +6,7 @@ date: 2015-09-24T11:45:00
 draft: False
 tags: [ "agile", "DevOps", "Community", "Speaking", "HDC" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

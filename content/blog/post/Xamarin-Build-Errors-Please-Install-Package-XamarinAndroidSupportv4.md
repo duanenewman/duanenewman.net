@@ -6,6 +6,7 @@ date: 2016-03-16T08:45:00
 draft: False
 tags: [ "Xamarin", "Xamarin Forms", "Coding", "Troubleshooting" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 

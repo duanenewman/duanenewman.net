@@ -6,6 +6,7 @@ date: 2015-02-09T12:30:00
 draft: False
 tags: [ "Technology", "SkillsUSA", "Judging", "Coding", "Community" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

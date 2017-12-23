@@ -6,6 +6,7 @@ date: 2015-03-03T08:55:00
 draft: False
 tags: [ "twitter", "Xamarin", "business", "Coding", "tips", "linq", "social", "mobile" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 

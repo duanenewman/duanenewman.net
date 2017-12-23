@@ -6,6 +6,7 @@ date: 2014-09-26T15:28:28
 draft: False
 tags: [ "STLDODN", "Xamarin" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

@@ -6,6 +6,7 @@ date: 2011-09-14T18:00:00
 draft: False
 tags: [ "media", "directshow", ".net" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 

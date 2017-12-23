@@ -6,6 +6,7 @@ date: 2015-06-16T11:15:00
 draft: False
 tags: [ "KCDC", "speaking", "Xamarin", "Xamarin Forms" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

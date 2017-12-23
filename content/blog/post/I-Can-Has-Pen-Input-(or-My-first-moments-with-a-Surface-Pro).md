@@ -6,6 +6,7 @@ date: 2013-02-09T08:56:00
 draft: False
 tags: [ "review", "surface" ]
 categories: [ "Technology" ]
+comments: true
 
 ---
 

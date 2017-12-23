@@ -6,6 +6,7 @@ date: 2016-03-09T08:30:00
 draft: False
 tags: [ "OSS", "vegas", "video", "plugin" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 

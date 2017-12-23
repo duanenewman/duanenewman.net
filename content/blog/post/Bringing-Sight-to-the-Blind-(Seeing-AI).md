@@ -6,6 +6,7 @@ date: 2016-03-31T06:30:00
 draft: False
 tags: [ "Technology", "Human", "NUI", "Build2016" ]
 categories: [ "Technology" ]
+comments: true
 
 ---
 

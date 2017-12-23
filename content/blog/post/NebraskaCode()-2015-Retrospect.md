@@ -6,6 +6,7 @@ date: 2015-03-27T09:48:00
 draft: False
 tags: [ "speaking", "Xamarin", "Xamarin Forms", "Community", "mobile", "review", "NCC" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

@@ -6,6 +6,7 @@ date: 2014-11-10T13:00:00
 draft: False
 tags: [ "tips", "Xamarin", "Xamarin Forms" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 

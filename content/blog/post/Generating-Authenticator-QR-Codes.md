@@ -6,6 +6,7 @@ date: 2016-03-18T08:30:00
 draft: False
 tags: [ "QRCode", "Security", "tips", "Technology" ]
 categories: [ "Technology" ]
+comments: true
 
 ---
 

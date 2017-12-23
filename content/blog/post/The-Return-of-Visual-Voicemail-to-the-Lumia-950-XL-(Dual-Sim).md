@@ -6,6 +6,7 @@ date: 2016-04-18T16:58:41
 draft: False
 tags: [ "Lumia", "WinPhone" ]
 categories: [ "Technology" ]
+comments: true
 
 ---
 

@@ -6,6 +6,7 @@ date: 2016-04-18T11:15:00
 draft: False
 tags: [ "Scuba", "Travel", "Tips" ]
 categories: [ "Scuba" ]
+comments: true
 
 ---
 

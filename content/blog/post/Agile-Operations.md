@@ -6,6 +6,7 @@ date: 2014-10-21T16:04:44
 draft: False
 tags: [ "reflection", "buiness", "agile" ]
 categories: [ "Musings" ]
+comments: true
 
 ---
 

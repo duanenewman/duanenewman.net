@@ -6,6 +6,7 @@ date: 2016-04-27T09:00:00
 draft: False
 tags: [ "Xamarin", "Technology", "Build2016", "OSS" ]
 categories: [ "Technology" ]
+comments: true
 
 ---
 

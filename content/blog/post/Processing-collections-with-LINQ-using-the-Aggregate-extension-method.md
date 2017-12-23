@@ -6,6 +6,7 @@ date: 2011-09-14T22:19:00
 draft: False
 tags: [ ".net", "linq" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 

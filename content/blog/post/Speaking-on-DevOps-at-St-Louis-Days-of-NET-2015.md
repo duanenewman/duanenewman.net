@@ -6,6 +6,7 @@ date: 2015-09-25T09:10:00
 draft: False
 tags: [ "speaking", "STLDODN", "DevOps" ]
 categories: [ "Speaking" ]
+comments: true
 
 ---
 

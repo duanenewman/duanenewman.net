@@ -6,6 +6,7 @@ date: 2015-03-17T08:40:00
 draft: False
 tags: [ "mobile", "Xamarin", "Xamarin Forms", "WinPhone", "Silverlight", "Deployment" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 

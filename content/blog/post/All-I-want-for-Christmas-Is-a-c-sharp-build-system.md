@@ -6,6 +6,7 @@ date: 2017-12-23T00:00:00
 draft: False
 tags: [ "devops", "c#", ".net", "cake", "build" ]
 categories: [ "Coding" ]
+comments: true
 
 ---
 
