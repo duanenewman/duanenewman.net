@@ -1,0 +1,6 @@
+{{ if .Site.Params.ShowReadTime }}
+  A {{ .ReadingTime }} minute read,
+{{ end }}
+Posted on {{ dateFormat .Site.Params.DateForm .Date }} {{ partial "categories.html" .}}
+<br />
+{{ partial "tags.html" .}}

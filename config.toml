@@ -40,11 +40,11 @@ disqusShortname = "duanenewmannet"
   url = "https://www.kickstarter.com/profile/duanenewman"
 
 [[menu.main]]
-  name = "About"
-  url = "/about"
+  name = "Home"
+  url = "/"
   weight = -200
 
 [[menu.main]]
-  name = "Archives"
-  url = "/post/"
+  name = "Blog"
+  url = "/blog/"
   weight = -180

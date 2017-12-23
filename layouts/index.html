@@ -1,0 +1,68 @@
+{{ partial "header.html" .}}
+
+    <!-- Page Header -->
+    <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg')">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+           <div class="site-heading">
+             <h1>{{ .Site.Title }}</h1>
+             <hr class="small">
+             {{ with .Site.Params.Description }}<span class="subheading">{{ . }}</span>{{ end }}
+           </div>
+         </div>
+       </div>
+     </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<!-- <div class="col-lg-9 col-md-10"> -->
+
+				{{ .Content }}
+				
+				<hr/>
+
+				{{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
+				{{ range first 1 (where .Data.Pages "Type" "post") }}
+					{{ .Render "summary"}}
+				{{ end }}
+				<!-- Pager -->
+				<ul class="pager">
+				  <li class="next">
+					<a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
+				  </li>
+				</ul>
+	  
+
+
+			</div>
+            <!-- <div class="col-lg-3 col-md-2">
+				<div class="sidecol-right">
+					<h4>Recent Posts</h4>
+					<ul >
+						{{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
+					{{ range first $posts (where .Data.Pages "Type" "post") }}
+					<li>
+						<a href="{{ .Permalink }}">{{ .Title }}</a>
+					</li>
+					{{ end }}
+					<li class="next">
+						<a href="{{ .Site.BaseURL }}/blog/">Older Posts &rarr;</a>
+					</li>
+					</ul>
+
+				</div>
+				<div class="sidecol-right">
+					<a class="twitter-timeline"  href="https://twitter.com/duanenewman" data-widget-id="515601382057844736">Tweets by @duanenewman</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+
+			</div> -->
+        </div>
+    </div>
+
+
+{{ partial "footer.html" . }}
