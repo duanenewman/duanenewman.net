@@ -1,0 +1,121 @@
+.asside-left,
+.asside-right {
+	border-radius: 5px;
+	box-sizing: border-box; 
+	background: #0daeea; 
+	color: white; 
+	padding: 10px;
+}
+
+.asside-left,
+.asside-right {
+	/* float: left; */
+	margin: 0px;
+}
+
+
+@media (min-width: 768px){
+	.asside-left,
+	.asside-right {
+		width: 41.66666667%;
+	}
+	
+	.asside-left {
+		float: left;
+		margin-top: 5px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	
+	.asside-right {
+		float: right;
+		margin-left: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
+
+@media (min-width: 992px){
+	.asside-left,
+	.asside-right {
+		width: 33.33333333%;
+	}
+	/* 
+	.asside-left {
+		float: left;
+	}
+	
+	.asside-right {
+		float: right;
+	} */
+}
+
+@media (min-width: 1200px){
+	.asside-left,
+	.asside-right {
+		width: 25%;
+	}
+	/* 
+	.asside-left {
+		float: left;
+	}
+	
+	.asside-right {
+		float: right;
+	} */
+}
+
+.asside-left ul,
+.asside-right ul {
+	margin-left:10px;
+}
+
+.asside-left ul li,
+.asside-right ul li {
+	padding-left:0px;
+}
+
+
+
+
+
+.sidecol-left,
+.sidecol-right {
+	font-size: small;
+	border-radius: 5px;
+	box-sizing: border-box; 
+	background: #0daeea; 
+	color: white; 
+	padding: 10px;
+}
+
+.sidecol-left a:hover,
+.sidecol-right a:hover {
+	color: white;
+}
+
+.sidecol-left,
+.sidecol-right {
+	/* float: left; */
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+
+.sidecol-left ul,
+.sidecol-right ul {
+	padding: 0px;
+	margin-left:0px;
+	list-style-type: none;
+}
+
+.sidecol-left ul li,
+.sidecol-right ul li {
+	padding-left:0px;
+	padding-bottom: 5px;
+}
+
+.sidecol-left .next,
+.sidecol-right .next {
+	font-size: x-small;
+}

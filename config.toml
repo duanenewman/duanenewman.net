@@ -48,3 +48,8 @@ disqusShortname = "duanenewmannet"
   name = "Blog"
   url = "/blog/"
   weight = -180
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = -180
