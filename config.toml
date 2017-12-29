@@ -8,6 +8,7 @@ copyright = "Copyright Duane Newman"
 googleAnalytics = "UA-2838107-3"
 disqusShortname = "duanenewmannet"
 Comments = true
+pygmentsCodeFences = true
 
 [author]
   name = "Duane Newman"

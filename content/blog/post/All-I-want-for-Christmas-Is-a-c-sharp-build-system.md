@@ -43,30 +43,36 @@ It's easy, you just need to follow these easy steps (on Windows):
 
 1) Download the needed bootstrapper (you can grab the others too)
 
-    Invoke-WebRequest https://cakebuild.net/download/bootstrapper/windows -OutFile build.ps1
-    Invoke-WebRequest https://cakebuild.net/download/bootstrapper/osx -OutFile buildm.sh
-    Invoke-WebRequest https://cakebuild.net/download/bootstrapper/linux -OutFile buildl.sh
+```PowerShell
+Invoke-WebRequest https://cakebuild.net/download/bootstrapper/windows -OutFile build.ps1
+Invoke-WebRequest https://cakebuild.net/download/bootstrapper/osx -OutFile buildm.sh
+Invoke-WebRequest https://cakebuild.net/download/bootstrapper/linux -OutFile buildl.sh
+```
 
 2) Create your Cake Build file (build.cake)
 
-    var target = Argument("target", "Default");
-    
-    Task("Default")
-      .Does(() =>
-      {
-        var christmasDay = new DateTime(2017, 12, 25);
-        var daysToChristmas = (christmasDay - DateTime.Now.Date).TotalDays;
-        var message = daysToChristmas == 0
-                    ? "Merry Christmas!"
-                    : string.Format("{0} days to Christmas!", daysToChristmas);
-        Information(message);
-      });
-    
-    RunTarget(target);
+```csharp
+var target = Argument("target", "Default");
+
+Task("Default")
+	.Does(() =>
+	{
+	var christmasDay = new DateTime(2017, 12, 25);
+	var daysToChristmas = (christmasDay - DateTime.Now.Date).TotalDays;
+	var message = daysToChristmas == 0
+				? "Merry Christmas!"
+				: string.Format("{0} days to Christmas!", daysToChristmas);
+	Information(message);
+	});
+
+RunTarget(target);
+```
 
 3) Run your build
 
-    ./build.ps1
+```PowerShell
+./build.ps1
+```
 
 4) Commit it to version control, get latest on your Mac, and build
 
@@ -81,3 +87,6 @@ I've become a big fan of Cake and it is now my go-to build system when starting 
 # TL;DR;
 With [Cake](https://cakebuild.net/) you can manage your build processes with C# on any platform with .NET available.
  Get it, use it, you'll love it.
+
+# Update
+2017-12-29 Cake now supports C# 7.2 syntax with [v0.24.0 update](https://cakebuild.net/blog/2017/12/cake-v0.24.0-released). 
