@@ -22,12 +22,12 @@ Cake? You're making me hungry, what are you talking about? Cake (Stands for C# M
 
 There are two major points that I want you to get:
 
-1) It is built on Rosolyn with a C# DSL
+1) It is built on Roslyn with a C# DSL
 2) It is cross-platform
 
 # C# DSL (Domain Specific Language)
 
-This means you can write regular C# anywhere inline with your build process, and in fact, the custom DSL that powers Cake is all C# syntax and .NET based. This provides a lot of flexibility for managing all aspects of the build. They are able to leverage C# through the use of Rosolyn, which also allows them to target .NET/mono on Windows, Mac OS, and Linux.
+This means you can write regular C# anywhere inline with your build process, and in fact, the custom DSL that powers Cake is all C# syntax and .NET based. This provides a lot of flexibility for managing all aspects of the build. They are able to leverage C# through the use of Roslyn, which also allows them to target .NET/mono on Windows, Mac OS, and Linux.
 
 The Cake team has taken other cues from the C# development world, integrating support for extensibility through NuGet packages, making it easy to reference and use NuGet packages in your build process. They even use NuGet to get the core Cake components on your machine. That's right, setting up and using Cake in your project only requires downloading a bootstrapper file for your runtime platform and creating your build script. Running the bootstrapper downloads and expands the Cake (and supporting) NuGet packages, then runs Cake with your build script.
 
