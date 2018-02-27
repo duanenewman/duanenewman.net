@@ -1,0 +1,14 @@
+---
+
+title: "Bluff: An OSS Extension for Sony Vegas Pro"
+slug: "Bluff-OSS-Extension-for-Sony-Vegas-Pro"
+type: "post"
+date: 2016-03-09T08:30:00
+draft: False
+tags: [ "OSS", "vegas", "video", "plugin" ]
+categories: [ "Coding" ]
+comments: true
+
+---
+
+<p>Yesterday, my business Alien Arc Technologies, LLC <a title="Alien Arc Technologies, LLC Announces Bluff, an OSS Project for Sony Vegas Pro" href="http://alienarc.com/post/announcing-new-oss-project-bluff-for-vegas-pro-12" target="_blank">announced</a> the release of version 1.0 of an open source project I’ve been tinkering on recently, called Bluff. This is my first OSS project and I’m excited to have created something that I hope others will find useful, and better yet, will contribute their own ideas to.</p>  <h3>History</h3>  <p>The project came out of my own personal needs and interest. In 2015 I was introduced to the world of scuba diving and I’ve fallen totally in love with it. It didn’t take long before I was combining scuba with my photography hobby.. And suddenly I found I had the perfect environment to do video. </p>  <p>I’ve been doing video work with my church and for friends for several years now and have worked in Vegas for all of that work. Being a .NET developer I’ve written many small C# scripts for Vegas Pro over the years to help with menial tasks. But it wasn’t until I was trying to create more complex effects involving track motion for multiple tracks that I decided it was time to try and write an extension.</p>  <h3>Development</h3>  <p>The extension has been a fun challenge. Not just creating the effects themselves, but also navigating the ins and outs of Vegas Pro Extension development. I’ve banged my head on the wall trying to figure out some more obscure interactions and I feel like the project is very close to having a very professional feel.</p>  <p>Some of the improvements, other than new commands, that I intend to make moving forward include an installer, a toolbar popup menu (like my favorite commercial Vegas extension, Vegasaur), and custom embedded icons for the commands (I’ve figured out how to do them, I just need good icons now).</p>  <h3>Check it out</h3>  <p>I would love to see more commands added so feel free to check out the code and submit some pull requests. I’ll update more as development continues.</p>  <p>The GitHub repo: <a title="https://github.com/AlienArc/VegasBluff" href="https://github.com/AlienArc/VegasBluff">https://github.com/AlienArc/VegasBluff</a></p>  <p>The current release: <a title="https://github.com/AlienArc/VegasBluff/releases" href="https://github.com/AlienArc/VegasBluff/releases">https://github.com/AlienArc/VegasBluff/releases</a></p>  <p>Some of my diving videos: <a title="http://tinyurl.com/ScubaVideos" href="http://tinyurl.com/ScubaVideos">http://tinyurl.com/ScubaVideos</a></p>
