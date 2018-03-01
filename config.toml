@@ -53,4 +53,14 @@ pygmentsCodeFences = true
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = -180
+  weight = -100
+
+[[menu.main]]
+  name = "Appearances"
+  url = "/Appearances/"
+  weight = -140
+
+[[menu.main]]
+  name = "Speaking"
+  url = "/speaking/"
+  weight = -140
