@@ -3,7 +3,7 @@
 title: "Better unit testing with IOC, DI, and Mocking"
 slug: "better-unit-testing-with-ioc-di-and-mocking"
 type: "post"
-date: 2018-03-20T00:00:00
+date: 2018-03-26T00:00:00
 draft: False
 tags: [ "c#", "unit testing", "di", "ioc", ".net", "tips" ]
 categories: [ "Coding" ]
