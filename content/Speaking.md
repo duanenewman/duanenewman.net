@@ -27,6 +27,10 @@ I am available to speak at your conference or user group on topics based on C# (
 * Indy.Code() - April 18, 2018
   * [Hands Free Mobile UI Testing](https://indycode.amegala.com/Sessions/605)
   * [Packaging your world with NuGet](https://indycode.amegala.com/Sessions/593)
+* KC .NET User Group (Lightning Talk)
+  * April 23 - [Better unit testing with IOC, DI, and Mocking](https://www.meetup.com/KC-NET-User-Group/events/249039263/)
+  * February 27 - [Teach an old Type new tricks with Extension Methods](https://www.meetup.com/KC-NET-User-Group/events/247579338/)
+  * January 30 - [Understanding .NET Standard](https://www.meetup.com/KC-NET-User-Group/events/245865487/)
 
 ## 2017
 * Kansas City Developers Conference 2017 (KCDC) - 2nd–4th August 2017
