@@ -11,10 +11,10 @@ if ($Action -eq ""){
 }
 
 if($Action -eq "Debug") {
-	hugo server -w -D
+	hugo server -v -w -D
 } else {
 	echo "deploying"
 	# rm -ErrorAction SilentlyContinue -r -force ../duanenewman.github.io/*
-	hugo -d ../duanenewman.github.io/
+	hugo -v -d ../duanenewman.github.io/
 	cp file.cname ../duanenewman.github.io/CNAME
 }
