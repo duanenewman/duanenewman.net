@@ -13,7 +13,7 @@ comments: true
 
 When you write code designed for dependency injection it can make testing easier.. But it can also make it seem more complex and add a lot of ceremony to creating your testable instances. I thought I would share some tips I use when setting up a new cross-platform mobile project with unit testing. We can take advantage of the same IoC container strategy to make instanciating the class we want to test less painful.
 
-We typically develop our cross-platform Xamarin mobile apps using Prism for a MVVM framework, Unity for our IOC container, and NUnit for our testing framework. This turns out to make a great combination for handling unit testing on the View Models. Rather than writing code in out unit tests that manually creates supporting types and directly passes them into the View Models via the constructor, I like to take advantage of using our IOC container to automatically handle the dependency injection.
+We typically develop our cross-platform Xamarin mobile apps using Prism for our MVVM framework, Unity for our IOC container, and NUnit for our testing framework. This turns out to make a great combination for handling unit testing on the View Models. Rather than writing code in our unit tests that manually creates supporting types and directly passes them into the View Models via the constructor, I like to take advantage of using our IOC container to automatically handle the dependency injection.
 
 ### Packages and Versions
 
