@@ -1,11 +1,11 @@
 ---
 
-title: "Better unit testing with IOC, DI, and Mocking"
+title: "Better Unit Testing with IoC, DI, and Mocking"
 slug: "better-unit-testing-with-ioc-di-and-mocking"
 type: "post"
-date: 2018-03-26T00:00:00
+date: 2018-03-27T00:00:00
 draft: False
-tags: [ "c#", "unit testing", "di", "ioc", ".net", "tips" ]
+tags: [ "c#", "unit testing", "di", "dependency injection", "ioc", "dotnet", "tips", "tdd" ]
 categories: [ "Coding" ]
 comments: true
 
@@ -14,6 +14,19 @@ comments: true
 When you write code designed for dependency injection it can make testing easier.. But it can also make it seem more complex and add a lot of ceremony to creating your testable instances. I thought I would share some tips I use when setting up a new cross-platform mobile project with unit testing. We can take advantage of the same IoC container strategy to make instanciating the class we want to test less painful.
 
 We typically develop our cross-platform Xamarin mobile apps using Prism for a MVVM framework, Unity for our IOC container, and NUnit for our testing framework. This turns out to make a great combination for handling unit testing on the View Models. Rather than writing code in out unit tests that manually creates supporting types and directly passes them into the View Models via the constructor, I like to take advantage of using our IOC container to automatically handle the dependency injection.
+
+### Packages and Versions
+
+This article is based on Unity 4 as that is what my current project is in. I'll soon be converting to the latest version of Prism, and thus Unity 5.x, and will write a follow up article on how to implement this pattern with the changes that Unity 5 introduces.
+
+To install the same version of the packages used in this post run these commands in your package manager console:
+
+```cmd
+Install-Package Unity -Version 4.0.1
+Install-Package NUnit -Version 3.10.1
+Install-Package NUnit3TestAdapter -Version 3.10.0
+Install-Package Moq -Version 4.8.2
+```
 
 ## A Common Base
 
@@ -74,6 +87,8 @@ protected class ResettableLifetimeManager : LifetimeManager
 }
 ```
 
+> I implemented these as nested classes inside my BaseTest class since they are only used internally by the base class.
+
 ## Resetting For Each Test
 
 Using our ResettableLifetimeManager for each type we register and a shared instance of the LifetimeResetter allows us to clear our all instances our Unity container has created by calling the LifetimeResetter's Reset method. After the reset is called and all the instances are cleared Unity will automatically create new instances the next time one is requested, giving each test a fresh instance. Let's wire it all together with some helper methods to register the type. The new BaseTest class now looks like this:
@@ -94,7 +109,6 @@ public abstract class BaseTest
     {
         Container.RegisterType<T>(new ResettableLifetimeManager(Resetter), injectionMembers);
     }
-
 }
 ```
 
@@ -120,7 +134,7 @@ protected void RegisterResettableType<T>(Func<Action<Mock<T>>> onCreatedCallback
     RegisterResettableType<T>(new InjectionFactory(c => CreateMockInstance(onCreatedCallbackFactory)));
 }
 
-private T CreateMockInstance<T>(Func<Action<Mock<T>>> onCreatedCallbackFactory) where T : class
+protected T CreateMockInstance<T>(Func<Action<Mock<T>>> onCreatedCallbackFactory) where T : class
 {
     var mock = new Mock<T>();
     var onCreatedCallback = onCreatedCallbackFactory();
@@ -134,27 +148,35 @@ private T CreateMockInstance<T>(Func<Action<Mock<T>>> onCreatedCallbackFactory) 
 Now in our test we can register a type and upon creation it will call our setup method passing in the newly mocked instance, allowing us to add Setup calls or get a reference for checking execution with a Verify call later in the test.
 
 ```csharp
-public class OrderViewModelTest
+[TestFixture]
+public class OrderViewModelTest : BaseTest
 {
     [SetUp]
     public void TestSetup()
     {
         //setup the IOrderService for all tests
-        RegisterResettableType(() => Mock<IOrderService> mock => 
+        RegisterResettableType<IOrderService>(() => mock => 
         {
-            mock.Setup(s => s.GetOrders()
+            mock.Setup(s => s.GetOrders())
                 .Returns(new List<Order>());
-        }); 
+        });
     }
 
     [Test]
     public void CreatingOrderViewModelCallsOrderServiceGetOrdersOnce()
     {
         var viewModel = Container.Resolve<OrderViewModel>();
-        
+
         var service = Mock.Get(Container.Resolve<IOrderService>());
         service.Verify(s => s.GetOrders(), Times.Once);
     }
 }
 ```
 
+## Final Thoughts
+
+There are a lot of places you can go with this to extend functionality and reduce code rewrite. I usually end up with addional base classes for each part of my codebase that I am testing (for instance: BaseViewModelTest or BaseServiceTest) that will have standard types registered with default initialization functions, like all of my various services that may be used accross view models. I also use Func properties so I can override the setup on a per-test bases. I'll add some follow up posts that cover these scenarios as well as the upgrade to Unity 5.x for our IoC container and how to do this using MS Test.
+
+## Source Example
+
+You can find the full sample project on [github](https://github.com/duanenewman/BetterUnitTesting/tree/Unity4NUnit)

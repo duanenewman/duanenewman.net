@@ -5,7 +5,7 @@ slug: "Processing-collections-with-LINQ-using-the-Aggregate-extension-method"
 type: "post"
 date: 2011-09-14T22:19:00
 draft: False
-tags: [ ".net", "linq" ]
+tags: [ "dotnet", "linq" ]
 categories: [ "Coding" ]
 comments: true
 

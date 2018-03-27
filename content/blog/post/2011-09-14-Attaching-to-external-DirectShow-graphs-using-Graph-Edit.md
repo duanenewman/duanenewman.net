@@ -5,7 +5,7 @@ slug: "Attaching-to-external-DirectShow-graphs-using-Graph-Edit"
 type: "post"
 date: 2011-09-14T18:00:00
 draft: False
-tags: [ "media", "directshow", ".net" ]
+tags: [ "media", "directshow", "dotnet" ]
 categories: [ "Coding" ]
 comments: true
 

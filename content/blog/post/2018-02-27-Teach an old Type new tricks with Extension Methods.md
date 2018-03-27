@@ -5,7 +5,7 @@ slug: "Teach-an-old-Type-new-tricks-with-Extension-Methods"
 type: "post"
 date: 2018-02-27T00:00:00
 draft: False
-tags: [ "c#", ".net", "tips" ]
+tags: [ "c#", "dotnet", "tips" ]
 categories: [ "Coding" ]
 comments: true
 
