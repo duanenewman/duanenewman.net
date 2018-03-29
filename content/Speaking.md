@@ -24,7 +24,10 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2018
 
-* Indy.Code() - April 18, 2018
+* [Music City Code (May 31 - June 2, 2018)](http://www.musiccitytech.com/speakers/sessions/)
+  * Adaptive User Interfaces with Xamarin.Forms
+  * Packaging your world with NuGet
+* [Indy.Code() - April 16-18, 2018](https://indycode.amegala.com/)
   * [Hands Free Mobile UI Testing](https://indycode.amegala.com/Sessions/605)
   * [Packaging your world with NuGet](https://indycode.amegala.com/Sessions/593)
 * KC .NET User Group (Lightning Talk)
@@ -33,12 +36,12 @@ I am available to speak at your conference or user group on topics based on C# (
   * January 30 - [Understanding .NET Standard](https://www.meetup.com/KC-NET-User-Group/events/245865487/)
 
 ## 2017
-* Kansas City Developers Conference 2017 (KCDC) - 2nd–4th August 2017
+* [Kansas City Developers Conference 2017 (KCDC) - 2nd–4th August 2017](http://2017.kcdc.info/speakers/duane-newman)
   * Hands Free Mobile UI Testing
 * Detroit.Code() - 10th–12th July 2017
   * Xamarin Forms: Writing one app to rule all your platforms
   * Hands Free Mobile UI Testing
-* Music City Code 2017 - 1st–3rd June 2017
+* [Music City Code 2017 - 1st–3rd June 2017](https://2017.musiccitycode.com/speakers)
   * Uptown Func<> Delegates for Everyday Development
   * Hands Free Mobile UI Testing
   * Xamarin Forms: Writing one app to rule all your platforms
