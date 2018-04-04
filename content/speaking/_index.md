@@ -1,26 +1,23 @@
 ---
 
 title: "Speaking"
-type: "page"
 date: 2014-09-26T16:13:57
 draft: False
 tags: [  ]
 categories: [  ]
+image: "img/speaking-bg.jpg"
 
 ---
 
 I am available to speak at your conference or user group on topics based on C# (with an emphasis on Xamarin, mobile, WPF, and IoT), and DevOps. I have spoken at several events and would be happy to speak at yours. If you have a specific topic related to my areas of focus that you would like me to speak about then please let me know, I’d be happy to put together a presentation that meets your groups needs. Check out my upcoming schedule and past speaking engagements below.
 
-<!--
 ## Current Topics
 
-* Xamarin Forms: Writing One App to Rule All Your Platforms
-* Leveraging NuGet In Your Projects
-* Hands Free Mobile UI Testing
-* Uptown Func<>: Delegates for Every Day Development
-* Double Down with DevOps
-* Cross-Platform Mobile with C# and Xamarin (8 hour Workshop)
--->
+[Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  
+[Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)  
+[Packaging your world with NuGet](packaging-your-world-with-nuget)  
+[Putting the Fun in Func with Lambdas & LINQ](putting-the-fun-in-func-with-lambdas-and-linq)  
+[Hands Free Mobile UI Testing](hands-free-mobile-ui-testing)  
 
 ## 2018
 
@@ -36,6 +33,7 @@ I am available to speak at your conference or user group on topics based on C# (
   * January 30 - [Understanding .NET Standard](https://www.meetup.com/KC-NET-User-Group/events/245865487/)
 
 ## 2017
+
 * [Kansas City Developers Conference 2017 (KCDC) - 2nd–4th August 2017](http://2017.kcdc.info/speakers/duane-newman)
   * Hands Free Mobile UI Testing
 * Detroit.Code() - 10th–12th July 2017
@@ -53,6 +51,7 @@ I am available to speak at your conference or user group on topics based on C# (
   * Branded for Success
 
 ## 2016
+
 * Xamarin Dev Days 2016 - Kansas City - 12th November 2016
   * Xamarin Forms
   * Workshop
@@ -68,6 +67,7 @@ I am available to speak at your conference or user group on topics based on C# (
   * Branded for Success
 
 ## 2015
+
 * St. Louis Days of .NET 2015 - 12th–14th November 2015
   * Double Down with DevOps
 * Heartland Developers Conference (HDC) 2015 - 9th–11th September 2015
@@ -79,5 +79,6 @@ I am available to speak at your conference or user group on topics based on C# (
   * Xamarin Forms: One App to Rule All Your Platforms
 
 ## 2014
+
 * St. Louis Days of .NET 2014 - 13th–15th November 2014
   * Cross Platform Mobile the Xamarin.Forms Way
