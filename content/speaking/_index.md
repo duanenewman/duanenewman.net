@@ -21,10 +21,12 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2018
 
-* [Music City Code (May 31 - June 2, 2018)](http://www.musiccitytech.com/speakers/sessions/)
+* [That Conference (August 6 - 8)](https://www.thatconference.com/Speakers/Speaker/duanenewman)
+  * [Adaptive User Interfaces with Xamarin.Forms](https://www.thatconference.com/Sessions/Session/12272)
+* [Music City Code (May 31 - June 2)](http://www.musiccitytech.com/speakers/sessions/)
   * Adaptive User Interfaces with Xamarin.Forms
   * Packaging your world with NuGet
-* [Indy.Code() - April 16-18, 2018](https://indycode.amegala.com/)
+* [Indy.Code() (April 16-18)](https://indycode.amegala.com/)
   * [Hands Free Mobile UI Testing](https://indycode.amegala.com/Sessions/605)
   * [Packaging your world with NuGet](https://indycode.amegala.com/Sessions/593)
 * KC .NET User Group (Lightning Talk)
@@ -34,51 +36,51 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2017
 
-* [Kansas City Developers Conference 2017 (KCDC) - 2nd–4th August 2017](http://2017.kcdc.info/speakers/duane-newman)
+* [Kansas City Developers Conference 2017 (KCDC) - 2nd–4th August](http://2017.kcdc.info/speakers/duane-newman)
   * Hands Free Mobile UI Testing
-* Detroit.Code() - 10th–12th July 2017
+* Detroit.Code() - July 10th–12th
   * Xamarin Forms: Writing one app to rule all your platforms
   * Hands Free Mobile UI Testing
-* [Music City Code 2017 - 1st–3rd June 2017](https://2017.musiccitycode.com/speakers)
+* [Music City Code 2017 - June 1st–3rd](https://2017.musiccitycode.com/speakers)
   * Uptown Func<> Delegates for Everyday Development
   * Hands Free Mobile UI Testing
   * Xamarin Forms: Writing one app to rule all your platforms
-* Nebraska.Code() 2017 - 17th–19th May 2017
+* Nebraska.Code() 2017 - May 17th–19th
   * Xamarin Forms: Writing one app to rule all your platforms
   * Hands Free Mobile UI Testing
-* Indy.Code() 2017 - 29th–31st March 2017
+* Indy.Code() 2017 - March 29th–31st
   * Uptown Func<>: Delegates for Everyday Development
   * Branded for Success
 
 ## 2016
 
-* Xamarin Dev Days 2016 - Kansas City - 12th November 2016
+* Xamarin Dev Days 2016 - Kansas City - November 12th
   * Xamarin Forms
   * Workshop
-* Prairie.Code() 2016 - 26th–28th October 2016
+* Prairie.Code() 2016 - October 26th–28th
   * Branded for Success
   * Uptown Func<>: Delegates for Everyday Development
-* Heartland Developers Conference (HDC) 2016 - 8th–10th September 2016
+* Heartland Developers Conference (HDC) 2016 - September 8th–10th
   * Uptown Func<> Delegates for Everyday Development
-* Music City Code 2016 - 18th–20th August 2016
+* Music City Code 2016 - August 18th–20th
   * Xamarin Forms: Writing one app to rule all your platforms
-* Nebraska.Code() 2016 - 18th–20th May 2016
+* Nebraska.Code() 2016 - May 18th–20th
   * Xamarin Forms: Writing one app to rule all your platforms
   * Branded for Success
 
 ## 2015
 
-* St. Louis Days of .NET 2015 - 12th–14th November 2015
+* St. Louis Days of .NET 2015 - November 12th–14th
   * Double Down with DevOps
-* Heartland Developers Conference (HDC) 2015 - 9th–11th September 2015
+* Heartland Developers Conference (HDC) 2015 - September 9th–11th
   * Double Down with DevOps
-* KCDC 2015 - 24th–26th June 2015
+* KCDC 2015 - June 24th–26th
   * Workshop: Cross-Platform Mobile with C# & Xamarin
   * Xamarin Forms: Writing One App to Rule All Your Platforms
-* Nebraska Code Conference - 19th–21st March 2015
+* Nebraska Code Conference - March 19th–21st
   * Xamarin Forms: One App to Rule All Your Platforms
 
 ## 2014
 
-* St. Louis Days of .NET 2014 - 13th–15th November 2014
+* St. Louis Days of .NET 2014 - November 13th–15th
   * Cross Platform Mobile the Xamarin.Forms Way
