@@ -10,7 +10,7 @@ type: "about"
 
 Duane is Co-Founder of {{< target-blank "Alien Arc Technologies, LLC" "http://www.alienarc.com" >}} where he focuses on creating apps targeting mobile devices, modern desktops, and the Internet of Things. He has a passion for automation and reducing daily friction with software and he strives to bring solutions that improve or eliminate costly duplication and repetitive processes so more important things can be done. 
 
-## Duane - The Community Guy
+## Duane - The Community Advocate
 
 Duane enjoys an active role supporting the software development community, both locally, and on the road. In 2014 he offered to help the organizers of the {{< target-blank "Kansas City .NET User Group" "kcdnug.org" >}} and was quickly handed the reigns along with his business partner Brent. As Co-Organizer of the group he helps to coordinate everything from sponsors and venues to speakers and prizes. Duane also began speaking at developer conferences in 2014, with his very first session on Xamarin.Forms at the St. Louis Days of .NET (now Devup). Since that first talk he has grown a lot as a speaker, developer, and conference attendee. He continues to strive to learn more so he can provide relevant and helpful content to attendees. In 2017 his efforts with the developer community were recognized by Microsoft when he was given his first {{< target-blank "MVP Award" "https://mvp.microsoft.com/en-us/PublicProfile/5002703" >}}.
 

@@ -26,6 +26,8 @@ I am available to speak at your conference or user group on topics based on C# (
 * [Music City Code (May 31 - June 2)](http://www.musiccitytech.com/speakers/sessions/)
   * Adaptive User Interfaces with Xamarin.Forms
   * Packaging your world with NuGet
+* KC .NET User Group - May 22nd
+  * Adaptive User Interfaces with Xamarin.Forms
 * [Indy.Code() (April 16-18)](https://indycode.amegala.com/)
   * [Hands Free Mobile UI Testing](https://indycode.amegala.com/Sessions/605)
   * [Packaging your world with NuGet](https://indycode.amegala.com/Sessions/593)
@@ -36,7 +38,9 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2017
 
-* [Kansas City Developers Conference 2017 (KCDC) - 2nd–4th August](http://2017.kcdc.info/speakers/duane-newman)
+* [KC .NET User Group - August 22nd](https://www.meetup.com/KC-NET-User-Group/events/242193402/)
+  * Leveraging NuGet in your Projects
+* [Kansas City Developers Conference 2017 (KCDC) - August 2nd–4th](http://2017.kcdc.info/speakers/duane-newman)
   * Hands Free Mobile UI Testing
 * Detroit.Code() - July 10th–12th
   * Xamarin Forms: Writing one app to rule all your platforms
@@ -60,6 +64,8 @@ I am available to speak at your conference or user group on topics based on C# (
 * Prairie.Code() 2016 - October 26th–28th
   * Branded for Success
   * Uptown Func<>: Delegates for Everyday Development
+* [KC .NET User Group - September 27th](https://www.meetup.com/KC-NET-User-Group/events/233170429/)
+  * Uptown Func<> Delegates for Everyday Development
 * Heartland Developers Conference (HDC) 2016 - September 8th–10th
   * Uptown Func<> Delegates for Everyday Development
 * Music City Code 2016 - August 18th–20th
@@ -67,6 +73,8 @@ I am available to speak at your conference or user group on topics based on C# (
 * Nebraska.Code() 2016 - May 18th–20th
   * Xamarin Forms: Writing one app to rule all your platforms
   * Branded for Success
+* [KC .NET User Group - February 23rd](https://www.meetup.com/KC-NET-User-Group/events/228900075/)
+  * Branded For Success
 
 ## 2015
 
@@ -74,9 +82,11 @@ I am available to speak at your conference or user group on topics based on C# (
   * Double Down with DevOps
 * Heartland Developers Conference (HDC) 2015 - September 9th–11th
   * Double Down with DevOps
-* KCDC 2015 - June 24th–26th
+* Kansas City Developers Conference (KCDC) 2015 - June 24th–26th
   * Workshop: Cross-Platform Mobile with C# & Xamarin
   * Xamarin Forms: Writing One App to Rule All Your Platforms
+* [KC .NET User Group - March 24th](https://www.meetup.com/KC-NET-User-Group/events/208991952/)
+  * Xamarin Forms: One App to Rule All Your Platforms
 * Nebraska Code Conference - March 19th–21st
   * Xamarin Forms: One App to Rule All Your Platforms
 
