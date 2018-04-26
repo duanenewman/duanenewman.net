@@ -23,10 +23,12 @@ I am available to speak at your conference or user group on topics based on C# (
 
 * [That Conference (August 6 - 8)](https://www.thatconference.com/Speakers/Speaker/duanenewman)
   * [Adaptive User Interfaces with Xamarin.Forms](https://www.thatconference.com/Sessions/Session/12272)
+* [Nebraska.Code() (June 6 - 8)](https://nebraskacode.amegala.com)
+  * [Adaptive User Interfaces with Xamarin.Forms](https://nebraskacode.amegala.com/Sessions/719)
 * [Music City Code (May 31 - June 2)](http://www.musiccitytech.com/speakers/sessions/)
   * Adaptive User Interfaces with Xamarin.Forms
   * Packaging your world with NuGet
-* KC .NET User Group - May 22nd
+* [KC .NET User Group - May 22nd](https://www.meetup.com/KC-NET-User-Group/events/249039531/)
   * Adaptive User Interfaces with Xamarin.Forms
 * [Indy.Code() (April 16-18)](https://indycode.amegala.com/)
   * [Hands Free Mobile UI Testing](https://indycode.amegala.com/Sessions/605)
