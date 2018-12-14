@@ -16,7 +16,7 @@ Duane enjoys an active role supporting the software development community, both 
 
 ## Duane - The Diver
 
-In 2015 Duane overcame his fear of the water and became a certified scuba diver. After a little over 2 years and 100 dives he can now be found sharing his love of the underwater world as a PADI Assistant Instructor. Right now he can only teach in the classroom and pool, prepping students for certification, but he is working towards becoming an Open Water Scuba Instructor so he can certify stufents himself. If you ever get tired of talking tech at a conference find him and ask him about scuba, but make sure you have plenty of free time. Learn more, see cool pictures, and watch videos of the amazing world below sea level at {{< target-blank "DLDAdventures.com" "http://DLDAdventures.com" >}}.
+In 2015 Duane overcame his fear of the water and became a certified scuba diver. In 2018, over 125 dives after getting started, he can now be found sharing his love of the underwater world as a PADI Open Water Scuba Instructor. He loves helping others overcome their own challenges and is inspired by those moments when students eyes light up when they realize they are actually breathing underwater, or see aquatic life in a new way from below the surface. If you ever get tired of talking tech at a conference find him and ask him about scuba, but make sure you have plenty of free time. Learn more, see cool pictures, and watch videos of the amazing world below the sea at {{< target-blank "DLDAdventures.com" "http://DLDAdventures.com" >}}.
 
 ## tl;dr;
 
