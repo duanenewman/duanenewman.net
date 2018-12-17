@@ -11,7 +11,7 @@ comments: true
 
 ---
 
-When you write code designed for dependency injection it can make testing easier.. But it can also make it seem more complex and add a lot of ceremony to creating your testable instances. I thought I would share some tips I use when setting up a new cross-platform mobile project with unit testing. We can take advantage of the same IoC container strategy to make instanciating the class we want to test less painful.
+When you write code designed for dependency injection it can make testing easier.. But it can also make it seem more complex and add a lot of ceremony to creating your testable instances. I thought I would share some tips I use when setting up a new cross-platform mobile project with unit testing. We can take advantage of the same IoC container strategy to make instantiating the class we want to test less painful.
 
 We typically develop our cross-platform Xamarin mobile apps using Prism for our MVVM framework, Unity for our IOC container, and NUnit for our testing framework. This turns out to make a great combination for handling unit testing on the View Models. Rather than writing code in our unit tests that manually creates supporting types and directly passes them into the View Models via the constructor, I like to take advantage of using our IOC container to automatically handle the dependency injection.
 
@@ -48,7 +48,7 @@ With all my tests inheriting from BaseTest I will always have a container ready 
 
 ## Lifetime Manager
 
-Using Unity we can handle this by adding a custom LifetimeManager that we can reset on demand. The LifetimeManager is responsible for holding the reference to an instance that the Unity IoC container creates. Since we can create a custom LifetimeManager we can control how it keeps track of the instance. We will also create a class that will let us initiate a reset to release the instance that our custom LifetimeManager is holding. We'll pass this into our custom LifetimeManager on instanciation of the manager.
+Using Unity we can handle this by adding a custom LifetimeManager that we can reset on demand. The LifetimeManager is responsible for holding the reference to an instance that the Unity IoC container creates. Since we can create a custom LifetimeManager we can control how it keeps track of the instance. We will also create a class that will let us initiate a reset to release the instance that our custom LifetimeManager is holding. We'll pass this into our custom LifetimeManager on instantiation of the manager.
 
 ```csharp
 protected class LifetimeResetter
@@ -114,7 +114,7 @@ public abstract class BaseTest
 
 ## Automating the reset
 
-NUnit allows us to add a method to our test class that will be called before each individual test is ran. This is done by adding the SetUp attribute to the method. This gives us a convenient way to call the Reset method on our LifetimeResetter before each test in any test class that inherits from our base. A nice feature of NUnit is that this SetUp attribute can be used in both a base class as well as on our actual test class, allowing someone using our BaseTest class to add their own test initializtion code without stomping on our lifetime management.
+NUnit allows us to add a method to our test class that will be called before each individual test is ran. This is done by adding the SetUp attribute to the method. This gives us a convenient way to call the Reset method on our LifetimeResetter before each test in any test class that inherits from our base. A nice feature of NUnit is that this SetUp attribute can be used in both a base class as well as on our actual test class, allowing someone using our BaseTest class to add their own test initialization code without stomping on our lifetime management.
 
 ```csharp
 [SetUp]
@@ -126,7 +126,7 @@ public void OnTestSetup()
 
 ## Adding Support for Mocking
 
-This gives us everything we need to be able to register all our dependency types and resolve instances. However, using mocking we can simplyfy things a little more. I like to use Moq for my mocking framework, and that usually requires doing some setup work beyond just creating a Mock of your type. To handle this setup, which could vary by each test, we'll pass in a Func that can either be set once during the class constructor, or can be swapped at the start of each test.
+This gives us everything we need to be able to register all our dependency types and resolve instances. However, using mocking we can simplify things a little more. I like to use Moq for my mocking framework, and that usually requires doing some setup work beyond just creating a Mock of your type. To handle this setup, which could vary by each test, we'll pass in a Func that can either be set once during the class constructor, or can be swapped at the start of each test.
 
 ```csharp
 protected void RegisterResettableType<T>(Func<Action<Mock<T>>> onCreatedCallbackFactory) where T : class
@@ -175,7 +175,7 @@ public class OrderViewModelTest : BaseTest
 
 ## Final Thoughts
 
-There are a lot of places you can go with this to extend functionality and reduce code rewrite. I usually end up with addional base classes for each part of my codebase that I am testing (for instance: BaseViewModelTest or BaseServiceTest) that will have standard types registered with default initialization functions, like all of my various services that may be used accross view models. I also use Func properties so I can override the setup on a per-test bases. I'll add some follow up posts that cover these scenarios as well as the upgrade to Unity 5.x for our IoC container and how to do this using MS Test.
+There are a lot of places you can go with this to extend functionality and reduce code rewrite. I usually end up with additional base classes for each part of my codebase that I am testing (for instance: BaseViewModelTest or BaseServiceTest) that will have standard types registered with default initialization functions, like all of my various services that may be used across view models. I also use Func properties so I can override the setup on a per-test bases. I'll add some follow up posts that cover these scenarios as well as the upgrade to Unity 5.x for our IoC container and how to do this using MS Test.
 
 ## Source Example
 
