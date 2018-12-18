@@ -21,6 +21,17 @@ One of these situations that can really affect performance is binding a frequent
 
 A simple solution to this problem might be to just rebuild the list each time. While that might seem to work well enough with just a few items or a basic UI layout it will result in the creation and disposal of a lot of objects. That constant churn of object construction and destruction will ramp up both the CPU and memory usage of your application.
 
+```csharp
+var updatedBloggers = BloggerService.GetSantasBloggers();
+SantasBloggers = new ObservableCollection<BloggerViewModel>(
+    updatedBloggers.Select(u => new BloggerViewModel(u.Id)
+    {
+        Name = u.Name,
+        Blog = u.Blog,
+        NaughtyNiceRating = u.NaughtyNiceRating
+    }));
+```
+
 ## A Solution
 
 I solved this by writing code to compare my incoming list with my displayed list and to update the existing list to match. We want to achieve three steps with this code: 1) remove items that are no longer present, 2) update items that are in both lists, and 3) add new items from our incoming list. There is an optional 4th step that my code doesn't cover, ordering the list of current items to match the order from our incoming list.
@@ -157,6 +168,35 @@ private static void AddNewItemsToTarget<T1, T2>(
         targetCollection.Add(mapper(item));
     }
 }
+```
+
+### Implementing
+
+Now that we have the extension methods in place it is pretty easy to use. All we have to do is get our updated data from the API and call the method.
+
+```csharp
+var modelToViewModelMatcher = new Func<BloggerViewModel, Blogger, bool>(
+    (vm, model) => vm.Id == model.Id);
+
+var mapBloggerToBloggerViewModel = new Func<Blogger, BloggerViewModel>(m => 
+    new BloggerViewModel(m.Id)
+    {
+        Name = m.Name,
+        Blog = m.Blog,
+        NaughtyNiceRating = m.NaughtyNiceRating
+    });
+
+var viewModelUpdater = new Action<BloggerViewModel, Blogger>((vm, model) => 
+    { 
+        vm.NaughtyNiceRating = model.NaughtyNiceRating; 
+        vm.JustAdded = false; 
+    });
+    
+var updatedBloggers = BloggerService.GetSantasBloggers();
+
+SantasBloggers.UpdateItems(
+    updatedBloggers, modelToViewModelMatcher, 
+    mapBloggerToBloggerViewModel, viewModelUpdater);
 ```
 
 ## Performance
