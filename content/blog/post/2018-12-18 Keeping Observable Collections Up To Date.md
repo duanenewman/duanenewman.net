@@ -5,15 +5,15 @@ slug: "keeping-observable-collections-up-to-date"
 type: "post"
 date: 2018-12-18T00:00:00
 draft: False
-tags: [ "c#", "dotnet", "csadvent", "mvvm", "observable", "api" ]
+tags: [ "c#", "dotnet", "csadvent", "mvvm", "observable", "api", "wpf", "uwp", "xamarin" ]
 categories: [ "Coding" ]
 comments: true
 
 ---
 
-This post is part of [The Second Annual C# Advent](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent) organized by Matthew Groves. Check out the article for a bunch of other great posts about C# development.
-
 One of the powerful capabilities we've learned to leverage when using the MVVM pattern for XAML based apps, whether for the desktop or mobile platforms, is data binding. Binding allows us to easily keep our View up to date with changes in the ViewModel. These bindings are typically pretty quick when not abused, but there are situations where they can become less than performant, causing visual anomalies such as flickering or even impacting general app performance.
+
+> This post is part of [The Second Annual C# Advent](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent) organized by Matthew Groves. Check out the article for a bunch of other great posts about C# development.
 
 ## The Problem
 
