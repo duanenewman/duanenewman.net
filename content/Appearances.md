@@ -7,6 +7,7 @@ date: 2015-04-01T22:00:47
 draft: False
 tags: [  ]
 categories: [  ]
+image: "img/appearances-bg.jpg"
 
 ---
 
