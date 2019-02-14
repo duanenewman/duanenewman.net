@@ -5,7 +5,7 @@ slug: "better-unit-testing-with-ioc-di-and-mocking"
 type: "post"
 date: 2018-03-27T00:00:00
 draft: False
-tags: [ "c#", "unit testing", "di", "dependency injection", "ioc", "dotnet", "tips", "tdd" ]
+tags: [ "csharp", "unit testing", "di", "dependency injection", "ioc", "dotnet", "tips", "tdd" ]
 categories: [ "Coding" ]
 comments: true
 

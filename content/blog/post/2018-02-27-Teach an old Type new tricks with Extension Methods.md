@@ -5,7 +5,7 @@ slug: "Teach-an-old-Type-new-tricks-with-Extension-Methods"
 type: "post"
 date: 2018-02-27T00:00:00
 draft: False
-tags: [ "c#", "dotnet", "tips" ]
+tags: [ "csharp", "dotnet", "tips" ]
 categories: [ "Coding" ]
 comments: true
 
@@ -13,9 +13,9 @@ comments: true
 
 Extension methods are a great way to add functionality or integration for established types. Learn about some of the cool things that you can do without the need to subclass or modify a class directly. You can even use extension methods to supply specialized functionality that is only relevant in a particular situation or when also making use of another type or library. We'll take a look at a few quick tricks and explore how you can get started with Extension Methods today.
 
-# What are Extension Methods? 
+# What are Extension Methods?
 
-They are this cool concept introduced with .NET 3.0 and are central to making LINQ usable and convenient (more on that later). They basically allow you to write a method that acts as an extension to an existing class, even if you don't have access to the source code, or if the class is sealed. This can be a great way to make your code flow better and wrap up utilitarian functionality for easy reuse. There are some limitations to extension methods: the code inside an extension method has the same level of access to the class as you would writing any other code outside of the class, meaning you can't access non-public properties or methods. 
+They are this cool concept introduced with .NET 3.0 and are central to making LINQ usable and convenient (more on that later). They basically allow you to write a method that acts as an extension to an existing class, even if you don't have access to the source code, or if the class is sealed. This can be a great way to make your code flow better and wrap up utilitarian functionality for easy reuse. There are some limitations to extension methods: the code inside an extension method has the same level of access to the class as you would writing any other code outside of the class, meaning you can't access non-public properties or methods.
 
 # Where can I find Extension Methods in .NET?
 

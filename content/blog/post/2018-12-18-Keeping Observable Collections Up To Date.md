@@ -5,7 +5,7 @@ slug: "keeping-observable-collections-up-to-date"
 type: "post"
 date: 2018-12-18T00:00:00
 draft: False
-tags: [ "c#", "dotnet", "csadvent", "mvvm", "observable", "api", "wpf", "uwp", "xamarin" ]
+tags: [ "csharp", "dotnet", "csadvent", "mvvm", "observable", "api", "wpf", "uwp", "xamarin" ]
 categories: [ "Coding" ]
 comments: true
 
