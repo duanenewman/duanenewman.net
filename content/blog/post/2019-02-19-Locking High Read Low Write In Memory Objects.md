@@ -158,3 +158,7 @@ After implementing this class and doing a little testing it turns out that using
 The moral of the story is if you think you are creating something that seems like a common need, take a quick look to make sure there isn't already one built for you.
 
 Here is a {{< target-blank "gist" "https://gist.github.com/duanenewman/6bf027fae3aab5aa85342eb34c94d9d4" >}} that you can drop in LinqPad to see the initial problem and all the above solutions with some random multi-threaded calls. 
+
+## Update, Even More Built-In Types
+
+Thanks to a {{< target-blank "comment" "https://www.linkedin.com/feed/update/urn:li:activity:6503777687096553474/" >}} from {{< target-blank "Chase" "https://twitter.com/chaseaucoin" >}}, another class to checkout is {{< target-blank "ConcurrentBag<T>" "https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentbag-1" >}}, which gives you threadsafe access to the collection. The .NET framework has a wealth of types out there!
