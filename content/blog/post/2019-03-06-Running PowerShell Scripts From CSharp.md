@@ -40,24 +40,24 @@ void NoError()
 }
 ```
 
-When you pass a string to the PowerShell executable it treats it as the ```Command``` switch, which is pure PowerShell script. If you want it to explicitly treat it as a script file can use the ```-File ``` parameter. It just happened to work with paths without spaces, since you can call a script that way. If you do need to pass script text that needs complex quoting (or perhaps line breaks), you can use the ```EncodedCommand``` switch, which accepts Base64 encoded content.
+When you pass a string to the PowerShell executable it treats it as the ```Command``` switch, which is pure PowerShell script. If you want it to explicitly treat it as a script file can use the ```-File``` parameter. It just happened to work with paths without spaces, since you can call a script that way. If you do need to pass script text that needs complex quoting (or perhaps line breaks), you can use the ```EncodedCommand``` switch, which accepts Base64 encoded content.
 
 ```csharp
 void Base64EncodedCommand()
 {
-	var psCommmand = @"echo ""quoted value"" 
-	echo ""Second Line""
-	pause";
-	var psCommandBytes = System.Text.Encoding.Unicode.GetBytes(psCommmand);
-	var psCommandBase64 = Convert.ToBase64String(psCommandBytes);
-	
-	var startInfo = new ProcessStartInfo()
-	{
-		FileName = "powershell.exe",
-		Arguments = $"-NoProfile -ExecutionPolicy unrestricted -EncodedCommand {psCommandBase64}",
-		UseShellExecute = false
-	};
-	Process.Start(startInfo);
+    var psCommmand = @"echo ""quoted value"" 
+    echo ""Second Line""
+    pause";
+    var psCommandBytes = System.Text.Encoding.Unicode.GetBytes(psCommmand);
+    var psCommandBase64 = Convert.ToBase64String(psCommandBytes);
+
+    var startInfo = new ProcessStartInfo()
+    {
+        FileName = "powershell.exe",
+        Arguments = $"-NoProfile -ExecutionPolicy unrestricted -EncodedCommand {psCommandBase64}",
+        UseShellExecute = false
+    };
+    Process.Start(startInfo);
 }
 ```
 
