@@ -13,14 +13,29 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## Current Topics
 
+Hacking Your Car - Driving Towards a smarter future  
 [Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  
 [Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)  
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
 [Putting the Fun in Func with Lambdas & LINQ](putting-the-fun-in-func-with-lambdas-and-linq)  
 [Hands Free Mobile UI Testing](hands-free-mobile-ui-testing)  
 
+## 2019
+
+* [KCDC (July 17-19)](http://www.kcdc.info/)
+  * Hacking Your Car - Driving Towards a smarter future
+* [KC .NET User Group - March 26th](https://www.meetup.com/KC-NET-User-Group/events/259480832/)
+  * Hacking Your Car - Driving Towards a smarter future
+* KC .NET User Group (Lightning Talk)
+  * March 26 - [Building the KC .NET User Group App - Azure Functions](https://www.meetup.com/KC-NET-User-Group/events/259480832/)
+  * February 26 - [Building the KC .NET User Group App - Architecture](https://www.meetup.com/KC-NET-User-Group/events/259480832/)
+
 ## 2018
 
+* Lunch & Learn - Nov 29th
+  * Developing Faster With LINQPad
+* [KC .NET User Group - Nov 27th](https://www.meetup.com/KC-NET-User-Group/events/256217760/)
+  * Technology Panel Member & Host
 * [That Conference (August 6 - 8)](https://www.thatconference.com/Speakers/Speaker/duanenewman)
   * [Adaptive User Interfaces with Xamarin.Forms](https://www.thatconference.com/Sessions/Session/12272)
 * [Nebraska.Code() (June 6 - 8)](https://nebraskacode.amegala.com)
@@ -34,6 +49,8 @@ I am available to speak at your conference or user group on topics based on C# (
   * [Hands Free Mobile UI Testing](https://indycode.amegala.com/Sessions/605)
   * [Packaging your world with NuGet](https://indycode.amegala.com/Sessions/593)
 * KC .NET User Group (Lightning Talk)
+  * Oct 23 - [Command line arguments made easy with Mono.Options](https://www.meetup.com/KC-NET-User-Group/events/249039663/)
+  * Aug 28 - [Intro to Humanizer](https://www.meetup.com/KC-NET-User-Group/events/249039637/)
   * April 23 - [Better unit testing with IOC, DI, and Mocking](https://www.meetup.com/KC-NET-User-Group/events/249039263/)
   * February 27 - [Teach an old Type new tricks with Extension Methods](https://www.meetup.com/KC-NET-User-Group/events/247579338/)
   * January 30 - [Understanding .NET Standard](https://www.meetup.com/KC-NET-User-Group/events/245865487/)
