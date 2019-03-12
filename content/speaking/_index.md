@@ -13,7 +13,7 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## Current Topics
 
-Hacking Your Car - Driving Towards a smarter future  
+[Hacking Your Car - Driving Towards a smarter future](hacking-your-car)
 [Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  
 [Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)  
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
