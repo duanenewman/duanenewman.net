@@ -4,7 +4,7 @@ slug: "using-prism-with-xamarin-forms-and-gtk"
 date: 2019-03-12T00:00:00-05:00
 type: "post"
 draft: false
-tags: [ "csharp", "dotnet", "xamarin", "gtk", "netstandard", "prism" ]
+tags: [ "csharp", "dotnet", "xamarin", "gtk", "netstandard", "prismlib" ]
 categories: [ "Coding" ]
 comments: true
 ---
