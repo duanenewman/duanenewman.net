@@ -58,12 +58,16 @@ Now when you build you will not get any `<Reference>` nodes auto added for this 
 
 ```xml
 <ItemGroup>
-    <Reference Include="Prism, Version=7.1.0.431, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+    <Reference Include="Prism">
         <HintPath>$(NuGetPackageRoot)prism.core\7.1.0.431\lib\netstandard2.0\Prism.dll</HintPath>
     </Reference>
 </ItemGroup>
 ```
 
-\* Make sure the `Include` attribute has the correct values for your assembly
-
 Now when you build and run your project it will ignore the binaries in the NuGet's lib folder and only add the references you specified.
+
+#### Caveat
+
+You will need to track version number changes and update the `<Reference>` node when you update to a new version.
+
+## Update - A better way!
