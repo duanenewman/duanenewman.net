@@ -3,7 +3,7 @@ title: "A Better Way to Override References With PackageReference"
 slug: "a-better-way-to-override-references-with-packagereference"
 date: 2019-04-01T00:00:00-06:00
 type: "post"
-draft: true
+draft: false
 tags: [ "csharp", "dotnet" ]
 categories: [ "Coding" ]
 comments: true
@@ -34,4 +34,4 @@ That makes the next step pretty easy. Let's update our `<Reference>` to this:
 </Reference>
 ```
 
-Now when you update packages to a new version you no longer need to worry about updating the `<Reference>` node.
+Now when you update packages to a new version you no longer need to worry about updating the `<Reference>` element.
