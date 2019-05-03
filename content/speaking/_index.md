@@ -32,6 +32,9 @@ I am available to speak at your conference or user group on topics based on C# (
   * Packaging your world with NuGet
 * [KCDC (July 17-19)](https://www.kcdc.info/speaker/spk-67d4621e-71f3-44ec-b9c9-b182e1cf278a)
   * [Hacking Your Car - Driving Towards a smarter future](https://www.kcdc.info/session/ses-85238)
+* [Xamarin Developer Summit (July 11-12)](https://xamarindevelopersummit.com/)
+  * Unit Testing Prism Apps With Ease
+  * Prism & Xamarin.Forms Testathon
 * [KC .NET User Group - March 26th](https://www.meetup.com/KC-NET-User-Group/events/259480832/)
   * Hacking Your Car - Driving Towards a smarter future
 * KC .NET User Group (Lightning Talk)
