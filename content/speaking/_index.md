@@ -13,7 +13,9 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## Current Topics
 
-[Hacking Your Car - Driving Towards a smarter future](hacking-your-car)
+[Hacking Your Car - Driving Towards a smarter future](hacking-your-car)  
+[Unit-Testing Prism Apps With Ease](unit-testing-prism-apps-with-ease)  
+[Building a Real App with Xamarin.Forms](building-a-real-app-with-xamarin-forms)  
 [Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  
 [Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)  
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
@@ -22,6 +24,9 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2019
 
+* [Code PaLOUsa 2019 (August 21-23)](http://www.codepalousa.com/)
+  * Hacking Your Car - Driving Towards a smarter future
+  * Building a Real App with Xamarin.Forms
 * [Nebraska.Code() (August 14-16)](https://nebraskacode.amegala.com/)
   * Hacking Your Car - Driving Towards a smarter future
   * Packaging your world with NuGet
