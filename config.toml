@@ -1,4 +1,4 @@
-baseURL = "http://duanenewman.net"
+baseURL = "https://duanenewman.net"
 languageCode = "en-us"
 title = "Duane Newman"
 theme = "startbootstrap-clean-blog"
