@@ -24,12 +24,15 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2019
 
+* [Prairie.Code() (September 11-13)](https://PrairieCode.amegala.com/)
+  * Hacking Your Car - Driving Towards a smarter future
+  * Packaging your world with NuGet
 * [Code PaLOUsa 2019 (August 21-23)](http://www.codepalousa.com/)
   * Hacking Your Car - Driving Towards a smarter future
   * Building a Real App with Xamarin.Forms
 * [Nebraska.Code() (August 14-16)](https://nebraskacode.amegala.com/)
-  * Hacking Your Car - Driving Towards a smarter future
-  * Packaging your world with NuGet
+  * [Hacking Your Car - Driving Towards a smarter future](https://nebraskacode.amegala.com/Sessions/881)
+  * [Packaging your world with NuGet](https://nebraskacode.amegala.com/Sessions/882)
 * [KCDC (July 17-19)](https://www.kcdc.info/speaker/spk-67d4621e-71f3-44ec-b9c9-b182e1cf278a)
   * [Hacking Your Car - Driving Towards a smarter future](https://www.kcdc.info/session/ses-85238)
 * [Xamarin Developer Summit (July 11-12)](https://xamarindevelopersummit.com/)
