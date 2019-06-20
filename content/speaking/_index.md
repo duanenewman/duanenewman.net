@@ -24,6 +24,10 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2019
 
+* [Build Stuff Ukraine (November 18-20)](https://www.ukraine.buildstuff.events/)
+  * Building a Real App with Xamarin.Forms
+* [Build Stuff Lithuania (November 13-17)](https://www.buildstuff.lt/)
+  * Building a Real App with Xamarin.Forms
 * [Prairie.Code() (September 11-13)](https://PrairieCode.amegala.com/)
   * Hacking Your Car - Driving Towards a smarter future
   * Packaging your world with NuGet
