@@ -71,3 +71,5 @@ Now when you build and run your project it will ignore the binaries in the NuGet
 You will need to track version number changes and update the `<Reference>` node when you update to a new version.
 
 ## Update - A better way!
+
+Check out [this article](../a-better-way-to-override-references-with-packagereference) with an cleaner modification to the csproj that is more resilient to version updates.
