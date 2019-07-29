@@ -1,9 +1,9 @@
 ---
 title: "Basic Authentication with TFS Package Server"
 slug: "2019-07-29-basic-auth-with-tfs-package-server"
-date: 2019-07-29T13:43:31-05:00
+date: 2019-07-29T00:00:00-05:00
 type: "post"
-draft: true
+draft: false
 tags: [ "csharp", "dotnet", "nuget", "mac", "osx", "packaging", "tfs", "domain", "authentication" ]
 categories: [ "Coding" ]
 comments: true
