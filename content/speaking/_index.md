@@ -11,16 +11,24 @@ image: "img/speaking-bg.jpg"
 
 I am available to speak at your conference or user group on topics based on C# (with an emphasis on Xamarin, mobile, WPF, and IoT), and DevOps. I have spoken at several events and would be happy to speak at yours. If you have a specific topic related to my areas of focus that you would like me to speak about then please let me know, I’d be happy to put together a presentation that meets your groups needs. Check out my upcoming schedule and past speaking engagements below.
 
-## Current Topics
+# Current Topics
 
-[Hacking Your Car - Driving Towards a smarter future](hacking-your-car)  
+## Ease Library ({{< target-blank "easelibrary.com" "https://easelibrary.com/" >}})
 [Unit-Testing Prism Apps With Ease](unit-testing-prism-apps-with-ease)  
+[Unit-Testing Apps With Ease](unit-testing-apps-with-ease)  
+
+## Xamarin
 [Building a Real App with Xamarin.Forms](building-a-real-app-with-xamarin-forms)  
-[Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  
+[Hands Free Mobile UI Testing](hands-free-mobile-ui-testing)  
 [Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)  
+<!-- [Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  -->
+
+## General
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
 [Putting the Fun in Func with Lambdas & LINQ](putting-the-fun-in-func-with-lambdas-and-linq)  
-[Hands Free Mobile UI Testing](hands-free-mobile-ui-testing)  
+[Hacking Your Car - Driving Towards a smarter future](hacking-your-car)  
+
+# Speaking Schedule & History
 
 ## 2019
 
@@ -29,7 +37,7 @@ I am available to speak at your conference or user group on topics based on C# (
 * [Build Stuff Lithuania (November 13-17)](https://www.buildstuff.lt/)
   * Building a Real App with Xamarin.Forms
 * [Prairie.Code() (September 11-13)](https://PrairieCode.amegala.com/)
-  * Hacking Your Car - Driving Towards a smarter future
+  * Unit-Testing Apps with Ease
   * Packaging your world with NuGet
 * [Code PaLOUsa 2019 (August 21-23)](http://www.codepalousa.com/)
   * Hacking Your Car - Driving Towards a smarter future
