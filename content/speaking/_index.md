@@ -30,6 +30,11 @@ I am available to speak at your conference or user group on topics based on C# (
 
 # Speaking Schedule & History
 
+## 2020
+
+* [Connectaha 2020 (March 27th)](https://connectaha.com)
+  * Unit-Testing with Ease
+
 ## 2019
 
 * [Build Stuff Ukraine (November 18-20)](https://www.ukraine.buildstuff.events/)
