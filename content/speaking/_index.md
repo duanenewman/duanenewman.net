@@ -32,8 +32,13 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2020
 
+* [Indy.Code() (April 29th - May 1st)](https://indycode.amegala.com/Speakers/695)
+  * [Unit-Testing Apps with Ease](https://indycode.amegala.com/Sessions/1068)
+  * [Packaging your world with NuGet](https://indycode.amegala.com/Sessions/1067)
 * [Connectaha 2020 (March 27th)](https://connectaha.com)
   * Unit-Testing with Ease
+* KC .NET User Group (Lightning Talk)
+  * January 28 - [Visual Studio... Online?](https://www.meetup.com/KC-NET-User-Group/events/267815886/)
 
 ## 2019
 
