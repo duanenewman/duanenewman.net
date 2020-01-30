@@ -1,7 +1,7 @@
 ---
 
 title: "Diving in Bonaire - 2016"
-slug: "Diving-in-Bonaire-2016."
+slug: "Diving-in-Bonaire-2016"
 type: "post"
 date: 2016-07-29T14:46:23
 draft: False
