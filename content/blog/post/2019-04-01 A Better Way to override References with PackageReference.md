@@ -11,7 +11,7 @@ comments: true
 
 Recently, there was a {{< target-blank "new feature added" "https://github.com/NuGet/Home/issues/6949" >}} to msbuild (working in Visual Studio 2019 15.9.9) that generates a variable for each package that contains the full path to the package version being used. All you have to do is add an attribute to each `<PackageReference>` you want need to work with. 
 
-There are just two changes to what we did before:
+There are just two changes to what we did [before](/blog/post/forcing-a-specific-target-platform-with-packagereference):
 
 1. Add `GeneratePathProperty` attribute to `<PackageReference>`
 2. Switch to `Pkg<Package_Name>` variable in `<HintPath>`
@@ -19,7 +19,7 @@ There are just two changes to what we did before:
 Step one is pretty simple, add the attribute `GeneratePathProperty` with a value of `true`:
 
 ```xml
-<PackageReference Include="Prism.Core" GeneratePathProperty="true">
+<PackageReference Include="Prism.Core" ExcludeAssets="Compile" GeneratePathProperty="true">
     <Version>7.1.0.431</Version>
 </PackageReference>
 ```
