@@ -9,9 +9,9 @@ categories: [ "Coding" ]
 comments: true
 ---
 
-I recently encountered some authentication issues connecting my Mac to the package service hosted on a client's on-prem TFS server. The server is on a Windows domain and normally I access TFS from a windows VM that is joined to the domain. However, I've recently found myself on my Mac more often while working on one of thier Xamarin mobile apps. This is when I began having problems.
+I recently encountered some authentication issues connecting my Mac to the package service hosted on a client's on-prem TFS server. The server is on a Windows domain and normally I access TFS from a windows VM that is joined to the domain. However, I've recently found myself on my Mac more often while working on one of their Xamarin mobile apps. This is when I began having problems.
 
-## The Poblem
+## The Problem
 
 The client has a couple NuGet packages hosted on the TFS server using the Package Management extension, and whenever I tried to do a NuGet restore I would run into authentication errors. I tried my normal domain user & password as well as a Personal Access Token (the method I wanted to use) and consistently was told my credentials were no good.
 
@@ -52,6 +52,6 @@ Once I had this in place my `nuget restore` executed with no issues and I was ba
 
 ## Why?
 
-I never ran into this issue on my Windows VM, and I think it is because the TFS server responds with a request to negotiate credentials and so Windows goes into action and authenticates me with my domain login and everything just works. I'm pretty sure this would be an issue if I attemted to connect with a Windows machine that was not joined to the domain.
+I never ran into this issue on my Windows VM, and I think it is because the TFS server responds with a request to negotiate credentials and so Windows goes into action and authenticates me with my domain login and everything just works. I'm pretty sure this would be an issue if I attempted to connect with a Windows machine that was not joined to the domain.
 
 I hope this saves you some time (and me, next time I run into this).

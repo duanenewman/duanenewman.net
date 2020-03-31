@@ -15,7 +15,7 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## Ease Library ({{< target-blank "easelibrary.com" "https://easelibrary.com/" >}})
 [Unit-Testing Prism Apps With Ease](unit-testing-prism-apps-with-ease)  
-[Unit-Testing Apps With Ease](unit-testing-apps-with-ease)  
+[Unit-Testing With Ease](unit-testing-with-ease)  
 
 ## Xamarin
 [Building a Real App with Xamarin.Forms](building-a-real-app-with-xamarin-forms)  
