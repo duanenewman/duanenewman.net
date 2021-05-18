@@ -26,12 +26,23 @@ I am available to speak at your conference or user group on topics based on C# (
 ## General
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
 [Putting the Fun in Func with Lambdas & LINQ](putting-the-fun-in-func-with-lambdas-and-linq)  
-[Hacking Your Car - Driving Towards a smarter future](hacking-your-car)  
+<!-- [Hacking Your Car - Driving Towards a smarter future](hacking-your-car)  -->
 
 # Speaking Schedule & History
 
+## 2021
+
+* [Nebraska.Code() 2021 (July 13th - 15th)](https://nebraskacode.amegala.com/)
+  * Unit-Testing .NET with Ease
+  * Packaging your world with NuGet
+
 ## 2020
 
+* [Build Stuff 2020 Lithuania (November 11th)](https://www.buildstuff.events/)
+  * Unit-Testing with Ease
+* [Code PaLOUsa 2020 (August 19th - 20th)](http://www.codepalousa.com/)
+  * Unit-Testing with Ease
+  * From Developed to Published - My Story Launching an Open Source Library
 * ~~[Indy.Code() (April 29th - May 1st)](https://indycode.amegala.com/Speakers/695)~~ **_canceled_**
   * [Unit-Testing Apps with Ease](https://indycode.amegala.com/Sessions/1068)
   * [Packaging your world with NuGet](https://indycode.amegala.com/Sessions/1067)
