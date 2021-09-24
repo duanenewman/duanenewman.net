@@ -35,6 +35,11 @@ I am available to speak at your conference or user group on topics based on C# (
 * [Nebraska.Code() 2021 (July 13th - 15th)](https://nebraskacode.amegala.com/)
   * Unit-Testing .NET with Ease
   * Packaging your world with NuGet
+* [KCDC 2021 (Sept 15th - 17th)](https://www.kcdc.info/)
+  * Packaging your world with NuGet
+* ~~[Prairie.Code() 2021 (Sept 22nd - 24th)](https://prairiecode.amegala.com/)~~ **_canceled_**
+  * Unit-Testing .NET with Ease
+  * Packaging your world with NuGet
 
 ## 2020
 
