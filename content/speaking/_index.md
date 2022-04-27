@@ -9,7 +9,7 @@ image: "img/speaking-bg.jpg"
 
 ---
 
-I am available to speak at your conference or user group on topics based on C# (with an emphasis on Xamarin, mobile, WPF, and IoT), and DevOps. I have spoken at several events and would be happy to speak at yours. If you have a specific topic related to my areas of focus that you would like me to speak about then please let me know, I’d be happy to put together a presentation that meets your groups needs. Check out my upcoming schedule and past speaking engagements below.
+I am available to speak at your conference or user group on topics based on C# (with an emphasis on WPF, unit testing, and  mobile), and DevOps. I have spoken at several events and would be happy to speak at yours. If you have a specific topic related to my areas of focus that you would like me to speak about then please let me know, I’d be happy to put together a presentation that meets your groups needs. Check out my upcoming schedule and past speaking engagements below.
 
 # Current Topics
 
@@ -17,18 +17,31 @@ I am available to speak at your conference or user group on topics based on C# (
 [Unit-Testing Prism Apps With Ease](unit-testing-prism-apps-with-ease)  
 [Unit-Testing With Ease](unit-testing-with-ease)  
 
-## Xamarin
-[Building a Real App with Xamarin.Forms](building-a-real-app-with-xamarin-forms)  
-[Hands Free Mobile UI Testing](hands-free-mobile-ui-testing)  
-[Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)  
+<!-- ## Xamarin -->
+<!-- [Building a Real App with Xamarin.Forms](building-a-real-app-with-xamarin-forms)   -->
+<!-- [Hands Free Mobile UI Testing](hands-free-mobile-ui-testing)   -->
+<!-- [Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)   -->
 <!-- [Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  -->
 
 ## General
+[How to Mock Objects and Influence Unit Tests](how-to-mock-objects-and-influence-unit-tests)  
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
 [Putting the Fun in Func with Lambdas & LINQ](putting-the-fun-in-func-with-lambdas-and-linq)  
 <!-- [Hacking Your Car - Driving Towards a smarter future](hacking-your-car)  -->
 
 # Speaking Schedule & History
+
+## 2022
+
+* [Nebraska.Code() 2021 (July 13-15, 2022)](https://nebraskacode.amegala.com/)
+  * How to Mock Objects and Influence Unit Tests
+* [dev up 2022 (June 6th - 8th)](https://devupconf.org/)
+  * How to Mock Objects and Influence Unit Tests
+  * Packaging your world with NuGet
+* [KC .NET User Group - January 18th](https://www.meetup.com/KC-NET-User-Group/events/283199549/)
+  * Unit Testing with AutoFixture and NSubstitute
+* KC .NET User Group (Lightning Talk)
+  * April 26 - [Upgrade an ASP.NET MVC app to .NET 6 with the .NET Upgrade Assistant](https://www.meetup.com/KC-NET-User-Group/events/285300026/)
 
 ## 2021
 
