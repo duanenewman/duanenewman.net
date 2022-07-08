@@ -33,7 +33,15 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2022
 
-* [Nebraska.Code() 2021 (July 13-15, 2022)](https://nebraskacode.amegala.com/)
+* [techbash 2022 (November 8th - 11th)](https://www.techbash.com/)
+  * How to Mock Objects and Influence Unit Tests
+* [Indy.Code() 2022 (October 19th)](https://indycode.amegala.com/)
+  * How to Mock Objects and Influence Unit Tests
+  * Packaging your world with NuGet
+* [Code PaLOUsa 2022 (August 17th - 19th)](https://www.codepalousa.com/)
+  * How to Mock Objects and Influence Unit Tests
+  * Packaging your world with NuGet
+* [Nebraska.Code() 2022 (July 13-15)](https://nebraskacode.amegala.com/)
   * How to Mock Objects and Influence Unit Tests
 * [dev up 2022 (June 6th - 8th)](https://devupconf.org/)
   * How to Mock Objects and Influence Unit Tests
