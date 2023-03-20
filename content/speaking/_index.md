@@ -31,6 +31,17 @@ I am available to speak at your conference or user group on topics based on C# (
 
 # Speaking Schedule & History
 
+## 2023
+
+* [dev up 2023 (August 28th - 30th)](https://devupconf.org/)
+  * How to Mock Objects and Influence Unit Tests
+  * Packaging your world with NuGet
+* [KC .NET User Group - February 28](https://www.meetup.com/kc-net-user-group/events/291817844/)
+  * Getting Started in .NET Maui
+* KC .NET User Group (Lightning Talk)
+  * January 24 - [Intro to Spectre.Console](https://www.meetup.com/kc-net-user-group/events/291010069/)
+
+
 ## 2022
 
 * [techbash 2022 (November 8th - 11th)](https://www.techbash.com/)
@@ -38,6 +49,8 @@ I am available to speak at your conference or user group on topics based on C# (
 * [Indy.Code() 2022 (October 19th)](https://indycode.amegala.com/)
   * How to Mock Objects and Influence Unit Tests
   * Packaging your world with NuGet
+* [Little Rock Tech Fest 2022 (October 13th - 14th)](https://www.lrtechfest.com/)
+  * How to Mock Objects and Influence Unit Tests
 * [Code PaLOUsa 2022 (August 17th - 19th)](https://www.codepalousa.com/)
   * How to Mock Objects and Influence Unit Tests
   * Packaging your world with NuGet
