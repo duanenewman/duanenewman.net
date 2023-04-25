@@ -36,10 +36,13 @@ I am available to speak at your conference or user group on topics based on C# (
 * [dev up 2023 (August 28th - 30th)](https://devupconf.org/)
   * How to Mock Objects and Influence Unit Tests
   * Packaging your world with NuGet
-* [KC .NET User Group - February 28](https://www.meetup.com/kc-net-user-group/events/291817844/)
+* [KC .NET User Group - April 25th](https://www.meetup.com/kc-net-user-group/events/293000246/)
+  * Supercharging Your Coding Workflow: AI-Powered Pair Programming
+* [KC .NET User Group - February 28th](https://www.meetup.com/kc-net-user-group/events/291817844/)
   * Getting Started in .NET Maui
 * KC .NET User Group (Lightning Talk)
-  * January 24 - [Intro to Spectre.Console](https://www.meetup.com/kc-net-user-group/events/291010069/)
+  * March 28th - [Using CodeMaid with Visual Studio](https://www.meetup.com/kc-net-user-group/events/292389442/)
+  * January 24th - [Intro to Spectre.Console](https://www.meetup.com/kc-net-user-group/events/291010069/)
 
 
 ## 2022
