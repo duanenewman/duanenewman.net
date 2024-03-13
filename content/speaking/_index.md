@@ -31,11 +31,24 @@ I am available to speak at your conference or user group on topics based on C# (
 
 # Speaking Schedule & History
 
+## 2024
+
+* [KCDC 2024 (June 26th-28th)](https://www.kcdc.info/)
+  * Coding Paradise: The Future of App Creation with .NET MAUI
+* [KC .NET User Group - February 27th](https://www.meetup.com/kc-net-user-group/events/299440246/)
+  * Testing the Waters: Navigating Unit Testing in the Blazor
+* [KC .NET User Group - January 23rd](https://www.meetup.com/kc-net-user-group/events/298637949/)
+  * Microsoft Blazor and Progressive Web Apps (PWAs): A Web Development Exploration
+
 ## 2023
 
+* [KC .NET User Group - October 24th](https://www.meetup.com/kc-net-user-group/events/296915846/)
+  * Navigating the .NET Landscape: Key Insights for Advancing as a .NET Programmer
 * [dev up 2023 (August 28th - 30th)](https://devupconf.org/)
   * How to Mock Objects and Influence Unit Tests
   * Packaging your world with NuGet
+* [KC .NET User Group - June 27th](https://www.meetup.com/kc-net-user-group/events/294380057/)
+  * What did I miss at Build
 * [KC .NET User Group - April 25th](https://www.meetup.com/kc-net-user-group/events/293000246/)
   * Supercharging Your Coding Workflow: AI-Powered Pair Programming
 * [KC .NET User Group - February 28th](https://www.meetup.com/kc-net-user-group/events/291817844/)
