@@ -5,10 +5,21 @@ theme = "startbootstrap-clean-blog"
 canonifyurls = true
 paginate = 10
 copyright = "Copyright Duane Newman"
-googleAnalytics = "UA-2838107-3"
-disqusShortname = "duanenewmannet"
 Comments = true
 pygmentsCodeFences = true
+
+[services]
+  [services.disqus]
+    shortname = 'duanenewmannet'
+  [services.googleAnalytics]
+    id = '386221517'
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
 
 [markup.goldmark.renderer]
   unsafe = true

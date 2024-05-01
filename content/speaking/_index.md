@@ -13,9 +13,9 @@ I am available to speak at your conference or user group on topics based on C# (
 
 # Current Topics
 
-## Ease Library ({{< target-blank "easelibrary.com" "https://easelibrary.com/" >}})
+<!-- ## Ease Library ({{< target-blank "easelibrary.com" "https://easelibrary.com/" >}})
 [Unit-Testing Prism Apps With Ease](unit-testing-prism-apps-with-ease)  
-[Unit-Testing With Ease](unit-testing-with-ease)  
+[Unit-Testing With Ease](unit-testing-with-ease)   -->
 
 <!-- ## Xamarin -->
 <!-- [Building a Real App with Xamarin.Forms](building-a-real-app-with-xamarin-forms)   -->
@@ -33,6 +33,12 @@ I am available to speak at your conference or user group on topics based on C# (
 
 ## 2024
 
+* [dev up 2024 (August 14th - 16th)](https://devupconf.org/)
+  * Coding Paradise: The Future of App Creation with .NET MAUI
+  * Packaging your world with NuGet
+* [Nebraska.Code() 2024 (July 17th-19th)](https://nebraskacode.amegala.com/)
+  * Blazing Trails: Your Guide to Effortless Web Development with Blazor
+  * Packaging your world with NuGet
 * [KCDC 2024 (June 26th-28th)](https://www.kcdc.info/)
   * Coding Paradise: The Future of App Creation with .NET MAUI
 * [KC .NET User Group - February 27th](https://www.meetup.com/kc-net-user-group/events/299440246/)
@@ -70,7 +76,7 @@ I am available to speak at your conference or user group on topics based on C# (
 * [Code PaLOUsa 2022 (August 17th - 19th)](https://www.codepalousa.com/)
   * How to Mock Objects and Influence Unit Tests
   * Packaging your world with NuGet
-* [Nebraska.Code() 2022 (July 13-15)](https://nebraskacode.amegala.com/)
+* [Nebraska.Code() 2022 (July 13th-15th)](https://nebraskacode.amegala.com/)
   * How to Mock Objects and Influence Unit Tests
 * [dev up 2022 (June 6th - 8th)](https://devupconf.org/)
   * How to Mock Objects and Influence Unit Tests
