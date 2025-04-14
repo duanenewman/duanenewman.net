@@ -31,9 +31,25 @@ I am available to speak at your conference or user group on topics based on C# (
 
 # Speaking Schedule & History
 
+## 2025
+
+* [dev up 2025 (August 6th-8th)](https://devupconf.org/)
+  * Coding Paradise: The Future of App Creation with .NET MAUI
+  * Packaging your world with NuGet
+* [Nebraska.Code() 2025 (July 23rd-25th)](https://nebraskacode.amegala.com/)
+  * Coding Paradise: The Future of App Creation with .NET MAUI
+* [KC .NET User Group - February 25th](https://www.meetup.com/kc-net-user-group/events/306385518/)
+  * There's a Library for That
+* [KC .NET User Group - January 28th](https://www.meetup.com/kc-net-user-group/events/305775871/)
+  * File -> New Year
+
 ## 2024
 
-* [dev up 2024 (August 14th - 16th)](https://devupconf.org/)
+* [KC .NET User Group - August 27th](https://www.meetup.com/kc-net-user-group/events/303060217/)
+  * Uptown Func<> Getting Fancy with Delegates
+* [KC .NET User Group - May 28th](https://www.meetup.com/kc-net-user-group/events/301174502/)
+  * What's new with the .NET ecosystem from Build?
+* [dev up 2024 (August 14th-16th)](https://devupconf.org/)
   * Coding Paradise: The Future of App Creation with .NET MAUI
   * Packaging your world with NuGet
 * [Nebraska.Code() 2024 (July 17th-19th)](https://nebraskacode.amegala.com/)
@@ -62,7 +78,6 @@ I am available to speak at your conference or user group on topics based on C# (
 * KC .NET User Group (Lightning Talk)
   * March 28th - [Using CodeMaid with Visual Studio](https://www.meetup.com/kc-net-user-group/events/292389442/)
   * January 24th - [Intro to Spectre.Console](https://www.meetup.com/kc-net-user-group/events/291010069/)
-
 
 ## 2022
 

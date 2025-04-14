@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Duane Newman"
 theme = "startbootstrap-clean-blog"
 canonifyurls = true
-paginate = 10
 copyright = "Copyright Duane Newman"
 Comments = true
 pygmentsCodeFences = true
@@ -24,8 +23,8 @@ pygmentsCodeFences = true
 [markup.goldmark.renderer]
   unsafe = true
 
-[author]
-  name = "Duane Newman"
+[pagination]
+  pagerSize = 10
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
