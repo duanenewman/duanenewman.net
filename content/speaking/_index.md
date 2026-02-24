@@ -9,7 +9,11 @@ image: "img/speaking-bg.jpg"
 
 ---
 
-I am available to speak at your conference or user group on topics based on C# (with an emphasis on WPF, unit testing, and  mobile), and DevOps. I have spoken at several events and would be happy to speak at yours. If you have a specific topic related to my areas of focus that you would like me to speak about then please let me know, I’d be happy to put together a presentation that meets your groups needs. Check out my upcoming schedule and past speaking engagements below.
+I’m available to speak at conferences and user groups on topics centered around C#, XAML-based UI development (MAUI, WPF, WinUI), unit testing, mobile development, and DevOps.
+
+I’ve spoken at a variety of events, from local user groups to international conferences, and I focus on delivering practical, experience-driven sessions that attendees can apply immediately. If you’re looking for a specific topic within these areas, I’m happy to tailor a talk to fit your audience and event goals.
+
+You can find my current speaking topics below, along with upcoming engagements and past appearances.
 
 # Current Topics
 
@@ -23,7 +27,8 @@ I am available to speak at your conference or user group on topics based on C# (
 <!-- [Creating Reusable Packages for Mobile Development with Xamarin and NuGet](reusable-packages-mobile-development-xamarin-nuget)   -->
 <!-- [Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  -->
 
-## General
+<!-- ## General -->
+[Coding Paradise: The Future of App Creation with .NET MAUI](coding-paradise-the-future-of-app-creation-with-dotnet-maui)  
 [How to Mock Objects and Influence Unit Tests](how-to-mock-objects-and-influence-unit-tests)  
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
 [Putting the Fun in Func with Lambdas & LINQ](putting-the-fun-in-func-with-lambdas-and-linq)  
