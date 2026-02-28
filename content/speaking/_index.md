@@ -5,7 +5,7 @@ date: 2014-09-26T16:13:57
 draft: False
 tags: [  ]
 categories: [  ]
-image: "img/speaking-bg.jpg"
+image: "img/speaking-bg2.jpg"
 
 ---
 
@@ -28,7 +28,10 @@ You can find my current speaking topics below, along with upcoming engagements a
 <!-- [Adaptive User Interfaces with Xamarin Forms](adaptive-ui-with-xamarin-forms)  -->
 
 <!-- ## General -->
+[Building Connected Apps With .NET MAUI](building-connected-apps-with-dotnet-maui)  
 [Coding Paradise: The Future of App Creation with .NET MAUI](coding-paradise-the-future-of-app-creation-with-dotnet-maui)  
+[Beyond HttpClient: Consuming APIs in .NET](beyond-httpclient-consuming-apis-in-dotnet)  
+[Failure Is a Feature: Designing for the Unhappy Path](failure-is-a-feature-designing-for-the-unhappy-path)  
 [How to Mock Objects and Influence Unit Tests](how-to-mock-objects-and-influence-unit-tests)  
 [Packaging your world with NuGet](packaging-your-world-with-nuget)  
 [Putting the Fun in Func with Lambdas & LINQ](putting-the-fun-in-func-with-lambdas-and-linq)  
@@ -36,17 +39,35 @@ You can find my current speaking topics below, along with upcoming engagements a
 
 # Speaking Schedule & History
 
+## 2026
+
+* [Nebraska.Code() 2026 (July 22nd-24th)](https://nebraskacode.amegala.com/)
+  * Coding Paradise: The Future of App Creation with .NET MAUI
+* KC .NET User Group (Lightning Talk)
+  * February 24th - [Don’t Throw That! Exceptions and Error Handling in .NET](https://www.meetup.com/kc-net-user-group/events/313412935/)
+  * January 27th - [Consuming APIs Effectively in .NET](https://www.meetup.com/kc-net-user-group/events/313010218/)
+
 ## 2025
 
+* [Build Stuff 2025 (Dec 2nd-4th)](https://buildstuff.events/)
+  * Coding Paradise: The Future of App Creation with .NET MAUI
 * [dev up 2025 (August 6th-8th)](https://devupconf.org/)
   * Coding Paradise: The Future of App Creation with .NET MAUI
   * Packaging your world with NuGet
 * [Nebraska.Code() 2025 (July 23rd-25th)](https://nebraskacode.amegala.com/)
   * Coding Paradise: The Future of App Creation with .NET MAUI
+* [KC .NET User Group - June 24th](https://www.meetup.com/kc-net-user-group/events/308612807/)
+  * Beyond the Build: Crafting Maintainable Projects with MSBuild
 * [KC .NET User Group - February 25th](https://www.meetup.com/kc-net-user-group/events/306385518/)
   * There's a Library for That
 * [KC .NET User Group - January 28th](https://www.meetup.com/kc-net-user-group/events/305775871/)
   * File -> New Year
+* KC .NET User Group (Lightning Talk)
+  * October 28th - [Dependency Injection in .NET: Why It Matters](https://www.meetup.com/kc-net-user-group/events/311731781/)
+  * September 23rd - [Can you Write That Without if?](https://www.meetup.com/kc-net-user-group/events/311119466/)
+  * August 26th - [Staying Sharp - What's New in C-Sharp 11-13](https://www.meetup.com/kc-net-user-group/events/310701655/)
+  * July 22nd - [Rethink your HTTP Requests with Refit](https://www.meetup.com/kc-net-user-group/events/309787958/)
+  * May 27th - [What You Might Have Missed at Build](https://www.meetup.com/kc-net-user-group/events/307938414/)
 
 ## 2024
 

@@ -119,3 +119,18 @@
 .sidecol-right .next {
 	font-size: x-small;
 }
+
+
+.navbar-custom {
+	background-color: #0daeea;
+	border-bottom: 1px solid white;
+	
+}
+
+.navbar-custom .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}

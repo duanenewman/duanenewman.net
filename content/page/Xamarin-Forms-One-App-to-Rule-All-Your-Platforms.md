@@ -1,7 +1,7 @@
 ---
 
 title: "Xamarin Forms: One App to Rule All Your Platforms"
-type: "about"
+type: "post"
 date: 2015-03-31T17:43:05
 draft: False
 tags: [  ]
