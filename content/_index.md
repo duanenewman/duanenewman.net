@@ -11,7 +11,7 @@ I build software, teach developers, support the tech community, and help people 
 
 I’m a long-time software developer who loves learning and sharing the technologies that excite me. You’ll usually find me:
 
-* [**Speaking**](Speaking) at conferences, user groups, and local events
+* [**Speaking**](speaking) at conferences, user groups, and local events
 * Co-organizing the **{{< target-blank "Kansas City .NET User Group" "http://kcdnug.org" >}}**
 * Providing hands-on technical [**training**](training)
 * Writing about software, tooling, and lessons learned on my [**blog**](blog)
@@ -29,8 +29,8 @@ In 2015, I fell in love with scuba diving, and today I teach others as a PADI & 
 
 ### Where to next?
 
-* Want to hear me speak? [**View speaking topics & schedule**](Speaking)
+* Want to hear me speak? [**View speaking topics & schedule**](speaking)
 * Looking for training or consulting? [**Work With Me**](training)
 * Curious about scuba? **{{< target-blank "Dive Rinse Repeat Scuba" "https://drrscuba.com" >}}**
 * Want the longer story? [**Read more about me**](about)
-* Check out my latest post below, or browse the **[archives](blog)**
+* Check out my latest post below, or browse the [**archives**](blog)
