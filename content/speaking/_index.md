@@ -41,7 +41,11 @@ You can find my current speaking topics below, along with upcoming engagements a
 
 ## 2026
 
+* [KCDC 2026 (September 10th-11th)](https://kcdc.info/)
+  * Building Connected Apps with .NET MAUI
 * [Nebraska.Code() 2026 (July 22nd-24th)](https://nebraskacode.amegala.com/)
+  * Coding Paradise: The Future of App Creation with .NET MAUI
+* [CommunityDays 2026 (May 28th-29th)](https://communitydays.info/)
   * Coding Paradise: The Future of App Creation with .NET MAUI
 * KC .NET User Group (Lightning Talk)
   * February 24th - [Don’t Throw That! Exceptions and Error Handling in .NET](https://www.meetup.com/kc-net-user-group/events/313412935/)
